@@ -1,0 +1,7 @@
+[submodule "testagain/themes/hugo-bearblog"]
+	path = testagain/themes/hugo-bearblog
+	url = https://github.com/janraasch/hugo-bearblog.git
+[submodule "testagain/public"]
+	path = testagain/public
+	url = https://github.com/filo31410/testhugo.github.io
+	branch = main
