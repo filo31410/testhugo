@@ -1,0 +1,22 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Installation des composants -->
+<link href="/dsfr/dsfr.min.css" rel="stylesheet">
+<link href="/css/core/core.min.css" rel="stylesheet">
+<link href="/css/link/link.min.css" rel="stylesheet">
+<link href="/css/logo/logo.min.css" rel="stylesheet">
+<link href="/css/form/form.min.css" rel="stylesheet">
+<link href="/css/button/button.min.css" rel="stylesheet">
+<link href="/css/navigation/navigation.min.css" rel="stylesheet">
+<link href="/css/modal/modal.min.css" rel="stylesheet">
+<link href="/css/input/input.min.css" rel="stylesheet">
+<link href="/css/search/search.min.css" rel="stylesheet">
+<link href="/css/header/header.min.css" rel="stylesheet">
+<link href="/css/callout/callout.min.css" rel="stylesheet">
+
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+</head>

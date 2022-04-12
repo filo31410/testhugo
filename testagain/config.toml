@@ -1,16 +1,17 @@
 baseURL = "https://filo31410.github.io/testhugo.github.io/"
-title = "Le PonT"
-theme = "lepont"
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
-    weight = 10
+theme = 'blank'
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 20
+title = "Le Pont"
+author = "Filo"
+copyright = ""
+languageCode = "en-US"
+
+enableRobotsTXT = true
+
+
+[params]
+  description = ""
+  subtitle = "Pôle des Outils Numériques Transverses"
+  favicon = "images/favicon.png"
+
