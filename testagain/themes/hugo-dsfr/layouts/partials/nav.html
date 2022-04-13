@@ -1,0 +1,25 @@
+   <!-- MENU HAUT : composant  navigation liens directs -->
+						
+<!-- Liens directs uniquement -->
+
+  <!-- Liens directs uniquement -->
+
+<nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+  
+    	<ul class="fr-nav__list">
+ 	 {{ $currentPage := . }}
+  	{{ range .Site.Menus.main }}
+  	<li class="fr-nav__item">
+  	<a class="fr-nav__link" href="{{ .URL }}" target="_self"  {{if ($currentPage.IsMenuCurrent "main" .) }}  aria-current="page" {{ end }} >{{ .Name }} </a> 
+          </li>
+    	{{ end}}
+  
+  
+  
+  
+          
+
+     	</ul>
+     	
+  </nav>
+ 

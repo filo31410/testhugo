@@ -1,29 +1,3 @@
-
-
-
-<!-- code de la page    -->
-
-
-<script type="text/javascript" nomodule href="/js/legacy/legacy.nomodule.min.js" ></script>
-
-<script type="module" href="/js/core/core.module.min.js" ></script>
-<script type="text/javascript" nomodule href="/js/core/core.nomodule.min.js" ></script>
-
-<script type="module" href="/js/navigation/navigation.module.min.js" ></script>
-<script type="text/javascript" nomodule href="/js/navigation/navigation.nomodule.min.js" ></script>
-
-<script type="module" href="/js/button/button.module.min.js" ></script>
-<script type="text/javascript" nomodule href="/js/button/button.nomodule.min.js" ></script>
-
-<script type="module" href="/js/modal/modal.module.min.js" ></script>
-<script type="text/javascript" nomodule href="/js/modal/modal.nomodule.min.js" ></script>
-
-<script type="module" href="/js/header/header.module.min.js" ></script>
-<script type="text/javascript" nomodule href="/js/header/header.nomodule.min.js" ></script>
-
-<script type="module" src="dsfr/dsfr.module.min.js"></script>
-<script type="text/javascript" nomodule src="/dsfr/dsfr.nomodule.min.js"></script>
-	
 <!-- footer -->
 <footer class="fr-footer" role="contentinfo" id="footer">
     <div class="fr-container">
@@ -56,19 +30,19 @@
         <div class="fr-footer__bottom">
             <ul class="fr-footer__bottom-list">
                 <li class="fr-footer__bottom-item">
-                    <a class="fr-footer__bottom-link" href="#">Plan du site</a>
+                    <a class="fr-footer__bottom-link" href="{{ "/plan/" | relURL }}">Plan du site</a>
                 </li>
                 <li class="fr-footer__bottom-item">
-                    <a class="fr-footer__bottom-link" href="#">Accessibilit&eacute;: non/partiellement/totalement conforme</a>
+                    <a class="fr-footer__bottom-link" href="{{ "/accessibilite/" | relURL }}">Accessibilit&eacute;</a>
                 </li>
                 <li class="fr-footer__bottom-item">
-                    <a class="fr-footer__bottom-link" href="#">Mentions l&eacute;gales</a>
+                    <a class="fr-footer__bottom-link" href="{{ "/mentions/" | relURL }}">Mentions l&eacute;gales</a>
                 </li>
                 <li class="fr-footer__bottom-item">
-                    <a class="fr-footer__bottom-link" href="#">Donn&eacute;es personnelles</a>
+                    <a class="fr-footer__bottom-link" href="{{ "/donnes/" | relURL }}">Donn&eacute;es personnelles</a>
                 </li>
                 <li class="fr-footer__bottom-item">
-                    <a class="fr-footer__bottom-link" href="#">Gestion des cookies</a>
+                    <a class="fr-footer__bottom-link" href="{{ "/cookies/" | relURL }}">Gestion des cookies</a>
                 </li>
             </ul>
             <div class="fr-footer__bottom-copy">
@@ -78,9 +52,3 @@
         </div>
     </div>
 </footer>
-
-
-
-
-
-<p class="footer text-center">Copyright (c) {{ now.Format "2006"}} Filo</p>
